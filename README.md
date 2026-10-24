@@ -10,6 +10,7 @@ Six one-click Inkscape extensions that set common [Ink/Stitch](https://inkstitch
 | **Ties: Neither** | no lock stitches | `maps_edge.inkstitch_ties_neither` |
 | **Trim After: True** | trim the thread after the object | `maps_edge.inkstitch_trim_after_true` |
 | **Trim After: False** | no trim after the object | `maps_edge.inkstitch_trim_after_false` |
+| **Satin Column: On** | marks the path as a satin column (Ctrl+Alt+S) | `maps_edge.inkstitch_satin_column` |
 
 Menu: **Extensions > Map's Edge Tools > Embroidery > Stitch Settings**. They are also buttons on the [Map's Edge Tool Panel](https://github.com/theRoadLessOrdinary/maps-edge-panel), where the four Ties entries are labeled "Lock Stitches".
 
