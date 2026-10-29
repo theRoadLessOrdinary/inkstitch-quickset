@@ -16,7 +16,7 @@ Menu: **Extensions > Map's Edge Tools > Embroidery > Stitch Settings**. They are
 
 ## Using them
 
-Select the objects, then pick the entry. Each one writes a single Ink/Stitch attribute on each selected object: `inkstitch:ties` (Before = 1, After = 2, Both = 0, Neither = 3) or `inkstitch:trim_after` (True or False). These are the same values Ink/Stitch's own Params dialog writes. The attribute goes on the selected object itself; objects inside a selected group are not changed.
+Select the objects, then pick the entry. Each one writes a single Ink/Stitch attribute on each selected object: `inkstitch:ties` (Before = 1, After = 2, Both = 0, Neither = 3) or `inkstitch:trim_after` (True or False). These are the same values Ink/Stitch's own Params dialog writes. If a group or layer is selected, the attribute goes on every shape inside it, including shapes in nested groups, and not on the group itself.
 
 None of them has a dialog, so each can be bound to a key in **Edit > Preferences > Interface > Keyboard Shortcuts** (search for its name).
 
